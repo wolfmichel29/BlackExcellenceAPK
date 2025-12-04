@@ -28,15 +28,11 @@ jobs:
         pip install --upgrade pip
         pip install buildozer cython
 
-    - name: Accept Android licenses
+    - name: Prepare Android config folder
       run: |
         mkdir -p ~/.android
         touch ~/.android/repositories.cfg
-        yes | sdkmanager --licenses || true
 
-    - name: Install Android SDK tools
-      run: |
-        sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
 
     - name: Build APK
       env:
