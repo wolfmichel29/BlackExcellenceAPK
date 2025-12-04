@@ -32,6 +32,10 @@ jobs:
       run: |
         mkdir -p ~/.android
         touch ~/.android/repositories.cfg
+        
+    - name: Clear Buildozer cache
+      run: |
+        rm -rf ~/.buildozer
 
 
     - name: Build APK
