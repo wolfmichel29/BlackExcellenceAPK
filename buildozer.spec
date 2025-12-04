@@ -1,5 +1,12 @@
 [app]
 
+# Force stable Android tools (prevents license failures)
+android.api = 33
+android.minapi = 24
+android.build_tools_version = 33.0.2
+android.ndk = 25b
+android.arch = arm64-v8a
+
 # (str) Title of your application
 title = Black Excellence
 
