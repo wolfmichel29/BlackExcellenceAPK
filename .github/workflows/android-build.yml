@@ -44,8 +44,8 @@ jobs:
         PIP_USER: "no"
         PYTHONNOUSERSITE: "0"
       run: |
-        buildozer android debug
-
+        buildozer -v android debug
+        cat buildozer.spec
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
