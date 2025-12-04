@@ -37,15 +37,27 @@ jobs:
       run: |
         rm -rf ~/.buildozer
 
+    - name: Install Android Build Tools 33.0.2
+      run: |
+        export ANDROID_SDK_ROOT=/usr/local/lib/android/sdk
+        export PATH=$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH
+
+        yes | sdkmanager --licenses || true
+        sdkmanager "build-tools;33.0.2" "platform-tools" "platforms;android-33"
+
+        ls -la $ANDROID_SDK_ROOT/build-tools
+
+
 
     - name: Build APK
-      working-directory: ./
       env:
+        ANDROID_HOME: /usr/local/lib/android/sdk
+        ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+        ANDROID_BUILD_TOOLS_VERSION: "33.0.2"
         PIP_USER: "no"
         PYTHONNOUSERSITE: "0"
       run: |
         buildozer -v android debug
-        cat buildozer.spec
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
