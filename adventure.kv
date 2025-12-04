@@ -1,0 +1,742 @@
+#:kivy 2.1.0
+
+<RewardPopup@ModalView>:
+    opacity: 1
+    scale: 1
+    size_hint: None, None
+    size: "420dp", "260dp"
+    auto_dismiss: False
+    background: ""
+    background_color: 0, 0, 0, 0
+
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, 0.6
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "18dp"
+        spacing: "12dp"
+
+        canvas.before:
+            Color:
+                rgba: 0.12, 0.04, 0.25, 0.96
+            RoundedRectangle:
+                pos: self.pos
+                size: self.size
+                radius: [24,]
+
+        Label:
+            text: "REWARD EARNED!"
+            font_size: "22sp"
+            bold: True
+            color: 1,1,1,1
+
+        Image:
+            source: app.coin_image
+            size_hint_y: None
+            height: "90dp"
+            allow_stretch: True
+            keep_ratio: True
+
+        Label:
+            text: root.reward_text
+            markup: True
+            font_size: "18sp"
+            color: 1, 0.9, 0.4, 1
+
+        NeonButton:
+            text: "Continue"
+            size_hint_y: None
+            height: "48dp"
+            on_release: root.dismiss()
+
+# ============================================================
+# NEON BUTTONS SCREEN
+# ============================================================
+
+<NeonLabel@Label>:
+    markup: True
+    color: 1, 1, 1, 1
+    font_size: "20sp"
+
+<NeonButton@Button>:
+    font_size: "20sp"
+    size_hint_y: None
+    height: "56dp"
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: 1, 1, 1, 1
+    bold: True
+    markup: True
+    # per-instance theme colors
+    normal_rgba: 0.2, 0.9, 0.9, 1
+    down_rgba: 0.9, 0.6, 0.2, 1
+    canvas.before:
+        Color:
+            rgba: self.normal_rgba if self.state == "normal" else self.down_rgba
+        RoundedRectangle:
+            pos: self.x + 2, self.y + 2
+            size: self.width - 4, self.height - 4
+            radius: [24,]
+
+
+# ============================================================
+# WELCOME SCREEN  (Layout Option B: two rows of buttons)
+# ============================================================
+
+<WelcomeScreen>:
+    name: "welcome"
+    canvas.before:
+        Color:
+            rgba: 0.05, 0.02, 0.10, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "40dp"
+        spacing: "24dp"
+
+        Label:
+            text: "Black Excellence Word Adventure"
+            font_size: "32sp"
+            bold: True
+            color: 1, 1, 1, 1
+            size_hint_y: None
+            height: "60dp"
+
+        Label:
+            text: "Take a Journey Across 8 Chapters Of Black History"
+            font_size: "20sp"
+            color: 0.8, 0.9, 1, 1
+            size_hint_y: None
+            height: "32dp"
+
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_y: None
+            height: "120dp"
+            spacing: "10dp"
+
+            Label:
+                text: "Enter your name:"
+                font_size: "18sp"
+                color: 0.9, 0.9, 1, 1
+                size_hint_y: None
+                height: "26dp"
+
+            TextInput:
+                id: name_input
+                multiline: False
+                font_size: "18sp"
+                size_hint_y: None
+                height: "44dp"
+                background_color: 0.12, 0.05, 0.20, 1
+                foreground_color: 1, 1, 1, 1
+                cursor_color: 1, 1, 1, 1
+                padding: "10dp"
+
+        Widget:
+
+        # ===== First row =====
+        BoxLayout:
+            size_hint_y: None
+            height: "60dp"
+            spacing: "20dp"
+
+            NeonButton:
+                text: " Start Adventure"
+                normal_rgba: 0.3, 0.9, 0.9, 1
+                down_rgba: 0.9, 0.6, 0.3, 1
+                on_release: app.start_game()
+
+            NeonButton:
+                text: " Daily Challenge"
+                normal_rgba: 0.3, 0.6, 0.9, 1
+                down_rgba: 0.2, 0.4, 0.8, 1
+                on_release: app.start_daily_challenge()
+
+        # ===== Second row =====
+        BoxLayout:
+            size_hint_y: None
+            height: "60dp"
+            spacing: "20dp"
+
+            NeonButton:
+                text: " Skins Store"
+                normal_rgba: 0.5, 0.3, 0.9, 1
+                down_rgba: 0.4, 0.2, 0.8, 1
+                on_release: app.open_skins()
+
+            NeonButton:
+                text: " Profile"
+                normal_rgba: 0.3, 0.8, 0.4, 1
+                down_rgba: 0.2, 0.6, 0.3, 1
+                on_release: app.open_profile()
+
+            NeonButton:
+                text: " Quit"
+                normal_rgba: 0.8, 0.2, 0.3, 1
+                down_rgba: 1.0, 0.4, 0.4, 1
+                on_release: app.quit_app()
+
+
+
+# ============================================================
+# GAME SCREEN  (animated + skinnable)
+# ============================================================
+
+<GameScreen>:
+    name: "game"
+    canvas.before:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: root.bg_source
+        Color:
+            rgba: 0, 0, 0, 0.50
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "16dp"
+        spacing: "12dp"
+
+        # Top banner --------------------------------------------------
+        BoxLayout:
+            size_hint_y: None
+            height: "64dp"
+            spacing: "10dp"
+            padding: "6dp"
+            canvas.before:
+                Color:
+                    rgba: root.banner_color
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [22,]
+
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_x: 0.45
+                Label:
+                    text: root.chapter_title
+                    markup: True
+                    font_size: "20sp"
+                    bold: True
+                    color: 1, 1, 1, 1
+                Label:
+                    text: root.player_name
+                    font_size: "16sp"
+                    color: 0.9, 0.9, 1, 1
+
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_x: 0.35
+                Label:
+                    text: root.progress_text
+                    font_size: "16sp"
+                    color: 0.9, 1, 0.9, 1
+                ProgressBar:
+                    max: root.progress_max
+                    value: root.progress_value
+                    size_hint_y: None
+                    height: "16dp"
+
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_x: 0.2
+                Label:
+                    text: "Coins"
+                    font_size: "20sp"
+                    color: 1, 1, 0.6, 1
+            AnchorLayout:
+                anchor_x: "right"
+                anchor_y: "center"
+
+                Label:
+                    id: coins_lbl
+                    text: root.coins_text
+                    font_size: "26sp"
+                    bold: True
+                    color: 1, 0.9, 0.3, 1
+                Label:
+                    id: xp_lbl
+                    text: "XP: " + root.xp_text
+                    font_size: 30
+                    size_hint_x: None
+                    width: self.texture_size[0] + dp(10)
+
+
+
+
+        # Question box -------------------------------------------------
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_y: 0.40
+            padding: "12dp"
+            spacing: "10dp"
+            canvas.before:
+                Color:
+                    rgba: root.accent_color
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+                    radius: [24,]
+
+            Label:
+                id: question_lbl
+                text: root.question_text
+                markup: True
+                text_size: self.width * 0.96, None
+                halign: "center"
+                valign: "middle"
+                font_size: "20sp"
+                color: 1, 1, 1, 1
+
+
+        # Answer buttons -----------------------------------------------
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_y: 0.32
+            spacing: "5dp"
+
+            NeonButton:
+                id: opt1
+                normal_rgba: root.button_color
+                down_rgba: root.button_down_color
+                text: root.option1_text
+                on_release: app.on_answer(0, self)
+
+            NeonButton:
+                id: opt2
+                normal_rgba: root.button_color
+                down_rgba: root.button_down_color
+                text: root.option2_text
+                on_release: app.on_answer(1, self)
+
+            NeonButton:
+                id: opt3
+                normal_rgba: root.button_color
+                down_rgba: root.button_down_color
+                text: root.option3_text
+                on_release: app.on_answer(2, self)
+
+            NeonButton:
+                id: opt4
+                normal_rgba: root.button_color
+                down_rgba: root.button_down_color
+                text: root.option4_text
+                on_release: app.on_answer(3, self)
+
+
+        # Feedback -----------------------------------------------------
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_y: None
+            height: "80dp"
+            spacing: "6dp"
+
+            Label:
+                text: root.feedback_text
+                markup: True
+                font_size: "16sp"
+                color: 0.8, 1, 0.9, 1
+                text_size: self.width, None
+                halign: "center"
+
+            BoxLayout:
+                size_hint_y: None
+                height: "40dp"
+                spacing: "10dp"
+
+                NeonButton:
+                    text: " Restart"
+                    normal_rgba: root.button_color
+                    down_rgba: root.button_down_color
+                    on_release: app.play_again()
+
+                NeonButton:
+                    text: " Quit"
+                    normal_rgba: root.button_color
+                    down_rgba: root.button_down_color
+                    on_release: app.quit_app()
+
+
+
+# ============================================================
+# CHAPTER END SCREEN
+# ============================================================
+
+<ChapterEndScreen>:
+    name: "chapter_end"
+    canvas.before:
+        Color:
+            rgba: 0.03, 0.01, 0.08, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "30dp"
+        spacing: "18dp"
+
+        Label:
+            text: "Chapter Completed!"
+            font_size: "30sp"
+            bold: True
+            color: 1, 1, 1, 1
+            size_hint_y: None
+            height: "60dp"
+
+        Label:
+            text: root.chapter_title
+            font_size: "22sp"
+            color: 0.8, 0.9, 1, 1
+            size_hint_y: None
+            height: "40dp"
+
+        Label:
+            text: root.chapter_result
+            markup: True
+            font_size: "18sp"
+            color: 0.9, 1, 0.9, 1
+
+        Label:
+            text: root.chapter_accuracy
+            markup: True
+            font_size: "18sp"
+            color: 0.9, 0.9, 1, 1
+
+        Label:
+            text: "Coins so far: [b]" + root.coins_text + "[/b]"
+            markup: True
+            font_size: "18sp"
+            color: 1, 0.9, 0.5, 1
+
+        Label:
+            text: root.overall_progress
+            font_size: "16sp"
+            color: 0.8, 0.9, 1, 1
+
+        Widget:
+
+        BoxLayout:
+            size_hint_y: None
+            height: "60dp"
+            spacing: "16dp"
+
+            NeonButton:
+                text: " Continue"
+                normal_rgba: 0.3, 0.9, 0.6, 1
+                down_rgba: 0.2, 0.7, 0.4, 1
+                on_release: app.continue_to_next_chapter()
+
+            NeonButton:
+                text: " Back to Welcome"
+                normal_rgba: 0.4, 0.5, 0.9, 1
+                down_rgba: 0.3, 0.4, 0.8, 1
+                on_release: app.back_to_welcome_from_chapter()
+
+            NeonButton:
+                text: " Quit"
+                normal_rgba: 0.8, 0.2, 0.3, 1
+                down_rgba: 1.0, 0.4, 0.4, 1
+                on_release: app.quit_app()
+
+
+
+# ============================================================
+# END SCREEN (Adventure Completed)
+# ============================================================
+
+<EndScreen>:
+    name: "end"
+    canvas.before:
+        Color:
+            rgba: 0.02, 0.01, 0.06, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "30dp"
+        spacing: "18dp"
+
+        Label:
+            text: root.result_title
+            font_size: "30sp"
+            bold: True
+            color: 1, 1, 1, 1
+            size_hint_y: None
+            height: "60dp"
+
+        Label:
+            text: root.result_summary
+            markup: True
+            font_size: "18sp"
+            color: 0.9, 0.9, 1, 1
+
+        Label:
+            text: "Total Coins: [b]" + root.coins_text + "[/b]"
+            markup: True
+            font_size: "20sp"
+            color: 1, 0.9, 0.5, 1
+
+        Label:
+            text: root.chapter_message
+            font_size: "16sp"
+            color: 0.8, 0.9, 1, 1
+
+        Label:
+            text: root.high_score_text
+            markup: True
+            font_size: "16sp"
+            color: 0.9, 1, 0.9, 1
+
+        Widget:
+
+        BoxLayout:
+            size_hint_y: None
+            height: "60dp"
+            spacing: "16dp"
+
+            NeonButton:
+                text: " Play Again"
+                normal_rgba: 0.3, 0.9, 0.6, 1
+                down_rgba: 0.2, 0.7, 0.4, 1
+                on_release: app.play_again()
+
+            NeonButton:
+                text: " Back to Welcome"
+                normal_rgba: 0.4, 0.5, 0.9, 1
+                down_rgba: 0.3, 0.4, 0.8, 1
+                on_release: app.back_to_welcome_from_chapter()
+
+            NeonButton:
+                text: " Quit"
+                normal_rgba: 0.8, 0.2, 0.3, 1
+                down_rgba: 1.0, 0.4, 0.4, 1
+                on_release: app.quit_app()
+
+
+
+# ============================================================
+# PROFILE SCREEN
+# ============================================================
+
+<ProfileScreen>:
+    name: "profile"
+    canvas.before:
+        Color:
+            rgba: 0.04, 0.02, 0.08, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "30dp"
+        spacing: "16dp"
+
+        Label:
+            text: "[b]Player Profile[/b]"
+            markup: True
+            font_size: "28sp"
+            color: 1, 1, 1, 1
+            size_hint_y: None
+            height: "50dp"
+
+        Label:
+            text: root.profile_summary
+            markup: True
+            font_size: "18sp"
+            color: 0.9, 0.9, 1, 1
+
+        Label:
+            text: root.stats_text
+            font_size: "16sp"
+            color: 0.8, 1, 0.9, 1
+
+        Widget:
+
+        NeonButton:
+            text: " Back"
+            size_hint_y: None
+            height: "56dp"
+            normal_rgba: 0.3, 0.9, 0.9, 1
+            down_rgba: 0.9, 0.6, 0.3, 1
+            on_release:
+                app.sm.current = "welcome"
+
+
+
+# ============================================================
+# SKINS STORE SCREEN
+# ============================================================
+
+<SkinsScreen>:
+    name: "skins"
+    canvas.before:
+        Color:
+            rgba: 0.06, 0.02, 0.10, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "30dp"
+        spacing: "16dp"
+
+        Label:
+            text: "[b]Neon Skins Store[/b]"
+            markup: True
+            font_size: "28sp"
+            color: 1, 1, 1, 1
+            size_hint_y: None
+            height: "50dp"
+
+        Label:
+            text: root.coin_balance_text
+            font_size: "18sp"
+            color: 1, 1, 0.6, 1
+            size_hint_y: None
+            height: "30dp"
+
+        Label:
+            text: root.info_text
+            markup: True
+            font_size: "16sp"
+            color: 0.8, 0.9, 1, 1
+
+        Widget:
+
+        # Buttons for each skin:
+        BoxLayout:
+            size_hint_y: None
+            height: "70dp"
+            spacing: "10dp"
+
+            NeonButton:
+                text: " Unlock Blue"
+                on_release: app.unlock_skin("electric_blue")
+
+            NeonButton:
+                text: " Unlock Pink"
+                on_release: app.unlock_skin("hot_pink")
+
+            NeonButton:
+                text: " Unlock Gold"
+                on_release: app.unlock_skin("royal_gold")
+
+        BoxLayout:
+            size_hint_y: None
+            height: "60dp"
+            spacing: "10dp"
+
+            NeonButton:
+                text: " Use Blue"
+                on_release: app.set_active_skin("electric_blue")
+
+            NeonButton:
+                text: " Use Pink"
+                on_release: app.set_active_skin("hot_pink")
+
+            NeonButton:
+                text: " Use Gold"
+                on_release: app.set_active_skin("royal_gold")
+
+        Widget:
+
+        NeonButton:
+            text: " Back"
+            size_hint_y: None
+            height: "56dp"
+            normal_rgba: 0.3, 0.9, 0.9, 1
+            down_rgba: 0.9, 0.6, 0.3, 1
+            on_release:
+                app.sm.current = "welcome"
+
+
+
+# ============================================================
+# FUN FACT SCREEN
+# ============================================================
+
+# ============================================================
+# DAILY RESULT SCREEN
+# ============================================================
+
+<DailyResultScreen>:
+    name: "daily_end"
+    canvas.before:
+        Color:
+            rgba: 0.03, 0.01, 0.08, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: "30dp"
+        spacing: "16dp"
+
+        Label:
+            text: "[b]Daily Challenge Complete![/b]"
+            markup: True
+            font_size: "28sp"
+            color: 1, 1, 1, 1
+            size_hint_y: None
+            height: "50dp"
+
+        Label:
+            text: root.result_text
+            markup: True
+            font_size: "18sp"
+            color: 0.9, 1, 0.9, 1
+
+        Label:
+            text: root.streak_text
+            markup: True
+            font_size: "16sp"
+            color: 1, 0.9, 0.5, 1
+
+        Label:
+            text: "Coins Earned Today: [b]" + root.coins_text + "[/b]"
+            markup: True
+            font_size: "18sp"
+            color: 1, 0.9, 0.5, 1
+
+        Widget:
+
+        BoxLayout:
+            size_hint_y: None
+            height: "60dp"
+            spacing: "16dp"
+
+            NeonButton:
+                text: " Back to Welcome"
+                normal_rgba: 0.4, 0.5, 0.9, 1
+                down_rgba: 0.3, 0.4, 0.8, 1
+                on_release:
+                    app.sm.current = "welcome"
+
+            NeonButton:
+                text: " Quit"
+                normal_rgba: 0.8, 0.2, 0.3, 1
+                down_rgba: 1.0, 0.4, 0.4, 1
+                on_release:
+                    app.quit_app()

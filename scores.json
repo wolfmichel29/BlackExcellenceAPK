@@ -1,0 +1,19 @@
+{
+    "best_score": 0,
+    "best_accuracy": 0.0,
+    "total_coins_earned": 2825,
+    "coin_balance": 2640,
+    "highest_chapter_completed": 1,
+    "total_correct_all_time": 46,
+    "total_questions_all_time": 60,
+    "max_coins_single_run": 375,
+    "daily_streak": 3,
+    "last_daily_date": "2025-12-03",
+    "skins_unlocked": [
+        "default",
+        "hot_pink",
+        "royal_gold",
+        "electric_blue"
+    ],
+    "active_skin": "electric_blue"
+}

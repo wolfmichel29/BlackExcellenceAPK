@@ -1,0 +1,823 @@
+{
+  "chapters": [
+
+    {
+      "title": "Black Scientists & Inventors",
+      "questions": [
+        {
+          "prompt": "Who invented an early version of the gas mask and improved the traffic signal?",
+          "options": ["Garrett Morgan", "Lewis Latimer", "Frederick McKinley Jones", "George Washington Carver"],
+          "correct_index": 0,
+          "fact": "Garrett Morgan’s inventions saved lives in fires and on busy streets.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "inventions", "safety"]
+        },
+        {
+          "prompt": "Who helped make light bulbs last longer by improving the carbon filament?",
+          "options": ["Lewis Latimer", "Thomas Edison", "Nikola Tesla", "Granville Woods"],
+          "correct_index": 0,
+          "fact": "Lewis Latimer’s work made electric lighting more practical and affordable.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "inventions", "electricity"]
+        },
+        {
+          "prompt": "Who was the NASA mathematician whose calculations were critical to the Apollo Moon missions?",
+          "options": ["Katherine Johnson", "Mae Jemison", "Annie Easley", "Dorothy Vaughan"],
+          "correct_index": 0,
+          "fact": "Katherine Johnson’s precise math helped launch astronauts safely into space.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "space", "nasa"]
+        },
+        {
+          "prompt": "Who was the first Black woman to travel into space?",
+          "options": ["Mae Jemison", "Katherine Johnson", "Patricia Bath", "Valerie Thomas"],
+          "correct_index": 0,
+          "fact": "Mae Jemison flew aboard the Space Shuttle Endeavour in 1992.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "space", "pioneers"]
+        },
+        {
+          "prompt": "Which inventor designed portable refrigeration systems used on trucks and trains?",
+          "options": ["Frederick McKinley Jones", "Otis Boykin", "Lewis Latimer", "Garrett Morgan"],
+          "correct_index": 0,
+          "fact": "Frederick McKinley Jones changed food transport and storage around the world.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "inventions", "refrigeration"]
+        },
+        {
+          "prompt": "Who co-invented technology that helped create the modern personal computer?",
+          "options": ["Mark Dean", "Lonnie Johnson", "Granville Woods", "Valerie Thomas"],
+          "correct_index": 0,
+          "fact": "Mark Dean holds several patents related to the IBM personal computer.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "technology", "computers"]
+        },
+        {
+          "prompt": "Who invented the Super Soaker water toy after working as a NASA engineer?",
+          "options": ["Lonnie Johnson", "Mark Dean", "Garrett Morgan", "Otis Boykin"],
+          "correct_index": 0,
+          "fact": "Lonnie Johnson’s invention became one of the best-selling toys in history.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "inventions", "toys"]
+        },
+        {
+          "prompt": "Which inventor created the Laserphaco Probe, a device used in eye surgery?",
+          "options": ["Dr. Patricia Bath", "Dr. Charles Drew", "Mae Jemison", "Valerie Thomas"],
+          "correct_index": 0,
+          "fact": "Dr. Patricia Bath’s work restored sight to thousands of patients.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "medicine", "vision"]
+        },
+        {
+          "prompt": "Who is known as a pioneer in blood banking and plasma preservation during World War II?",
+          "options": ["Dr. Charles Drew", "George Washington Carver", "Frederick Jones", "Lewis Latimer"],
+          "correct_index": 0,
+          "fact": "Dr. Charles Drew organized large-scale blood banks that saved many lives.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "medicine", "war"]
+        },
+        {
+          "prompt": "Which agricultural scientist discovered new uses for crops like peanuts and sweet potatoes?",
+          "options": ["George Washington Carver", "Granville Woods", "Garrett Morgan", "Otis Boykin"],
+          "correct_index": 0,
+          "fact": "George Washington Carver promoted soil health and crop rotation.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "agriculture", "science"]
+        },
+        {
+          "prompt": "Who helped invent Voice over Internet Protocol (VoIP), which powers apps like Zoom and Skype?",
+          "options": ["Dr. Marian Croak", "Mark Dean", "Valerie Thomas", "Lonnie Johnson"],
+          "correct_index": 0,
+          "fact": "Dr. Marian Croak holds hundreds of patents in digital voice technology.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "technology", "communication"]
+        },
+        {
+          "prompt": "What type of problem-solving do many Black inventors use to create tools that meet everyday needs?",
+          "options": ["Practical innovation", "Random guessing", "Copying others", "Accidental discovery"],
+          "correct_index": 0,
+          "fact": "Practical innovation focuses on real-world challenges and solutions.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "innovation", "problem-solving"]
+        },
+        {
+          "prompt": "Which field did Otis Boykin improve with his work on electronic resistors?",
+          "options": ["Electronics and medical devices", "Painting", "Sports equipment", "Architecture"],
+          "correct_index": 0,
+          "fact": "Otis Boykin’s resistors were used in computers, radios, and pacemakers.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["which", "electronics", "medicine"]
+        }
+      ]
+    },
+    {
+      "title": "Black History & Civil Rights",
+      "questions": [
+        {
+          "prompt": "Who is known as the 'Mother of the Civil Rights Movement' for refusing to give up her bus seat in Montgomery?",
+          "options": ["Rosa Parks", "Ella Baker", "Coretta Scott King", "Fannie Lou Hamer"],
+          "correct_index": 0,
+          "fact": "Rosa Parks’ action sparked the 1955–1956 Montgomery Bus Boycott.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "civil-rights", "montgomery"]
+        },
+        {
+          "prompt": "Who delivered the famous 'I Have a Dream' speech during the March on Washington in 1963?",
+          "options": ["Martin Luther King Jr.", "Malcolm X", "James Baldwin", "Medgar Evers"],
+          "correct_index": 0,
+          "fact": "Martin Luther King Jr. spoke before over 250,000 people at the Lincoln Memorial.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "civil-rights", "speeches"]
+        },
+        {
+          "prompt": "Which law, passed in 1964, outlawed segregation in public places and banned employment discrimination?",
+          "options": ["Civil Rights Act", "Voting Rights Act", "Fair Housing Act", "Emancipation Proclamation"],
+          "correct_index": 0,
+          "fact": "The Civil Rights Act of 1964 was a major victory for civil rights activists.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["which", "laws", "civil-rights"]
+        },
+        {
+          "prompt": "Which act, passed in 1965, protected the right to vote for Black Americans?",
+          "options": ["Voting Rights Act", "Freedom of Information Act", "Civil Service Act", "Reconstruction Act"],
+          "correct_index": 0,
+          "fact": "The Voting Rights Act targeted discriminatory practices like literacy tests.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["which", "voting", "civil-rights"]
+        },
+        {
+          "prompt": "Who led the Nation of Islam at one time and later became a powerful voice for Black self-determination?",
+          "options": ["Malcolm X", "Martin Luther King Jr.", "Marcus Garvey", "Stokely Carmichael"],
+          "correct_index": 0,
+          "fact": "Malcolm X emphasized Black pride, self-defense, and human rights.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "civil-rights", "black-power"]
+        },
+        {
+          "prompt": "Who used nonviolent protest and civil disobedience to challenge segregation in the United States?",
+          "options": ["Martin Luther King Jr.", "Malcolm X", "Marcus Garvey", "Booker T. Washington"],
+          "correct_index": 0,
+          "fact": "Martin Luther King Jr. was inspired by Mahatma Gandhi’s philosophy of nonviolent resistance.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "nonviolence", "civil-rights"]
+        },
+        {
+          "prompt": "Who escaped slavery and became a powerful abolitionist speaker and writer, publishing his own narrative?",
+          "options": ["Frederick Douglass", "Sojourner Truth", "Harriet Tubman", "Nat Turner"],
+          "correct_index": 0,
+          "fact": "Frederick Douglass’s autobiography exposed the brutal realities of slavery.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "abolition", "history"]
+        },
+        {
+          "prompt": "Who is known for the speech \"Ain't I a Woman?\" given at a women's rights convention in 1851?",
+          "options": ["Sojourner Truth", "Ida B. Wells", "Harriet Tubman", "Rosa Parks"],
+          "correct_index": 0,
+          "fact": "Sojourner Truth spoke about both racial and gender equality.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "women", "speeches"]
+        },
+        {
+          "prompt": "Who co-founded the NAACP and wrote about the idea of \"double consciousness\"?",
+          "options": ["W.E.B. Du Bois", "Booker T. Washington", "Frederick Douglass", "Marcus Garvey"],
+          "correct_index": 0,
+          "fact": "W.E.B. Du Bois was a scholar, activist, and one of the first Black Americans to earn a PhD from Harvard.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "naacp", "scholar"]
+        },
+        {
+          "prompt": "Which leader founded the Universal Negro Improvement Association (UNIA) and promoted Black pride and global unity?",
+          "options": ["Marcus Garvey", "Malcolm X", "Martin Luther King Jr.", "Thurgood Marshall"],
+          "correct_index": 0,
+          "fact": "Marcus Garvey’s movement encouraged economic independence and pride in African heritage.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "black-pride", "organizations"]
+        },
+        {
+          "prompt": "What was the name of the mass protest in Montgomery that began after Rosa Parks’ arrest?",
+          "options": ["Montgomery Bus Boycott", "Selma March", "Freedom Ride", "March on Washington"],
+          "correct_index": 0,
+          "fact": "The Montgomery Bus Boycott lasted over a year and desegregated the bus system.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "boycotts", "civil-rights"]
+        },
+        {
+          "prompt": "Which group of young Black students famously desegregated Central High School in Little Rock, Arkansas?",
+          "options": ["The Little Rock Nine", "The Freedom Riders", "The Greensboro Four", "SNCC Leaders"],
+          "correct_index": 0,
+          "fact": "The Little Rock Nine faced violent mobs and needed federal troops for protection.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["which", "schools", "desegregation"]
+        },
+        {
+          "prompt": "Who became the first Black U.S. Supreme Court Justice and argued Brown v. Board of Education?",
+          "options": ["Thurgood Marshall", "Clarence Thomas", "Charles Hamilton Houston", "John Lewis"],
+          "correct_index": 0,
+          "fact": "Thurgood Marshall’s legal work helped end school segregation.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "supreme-court", "law"]
+        }
+      ]
+    },
+    {
+      "title": "Black Sports Legends",
+      "questions": [
+        {
+          "prompt": "Who is the tennis champion who has won 23 Grand Slam singles titles?",
+          "options": ["Serena Williams", "Venus Williams", "Naomi Osaka", "Althea Gibson"],
+          "correct_index": 0,
+          "fact": "Serena Williams is widely considered one of the greatest athletes of all time.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "sports", "tennis"]
+        },
+        {
+          "prompt": "Which NBA legend led the Chicago Bulls to six championships in the 1990s?",
+          "options": ["Michael Jordan", "LeBron James", "Kobe Bryant", "Magic Johnson"],
+          "correct_index": 0,
+          "fact": "Michael Jordan is known for his scoring, leadership, and competitive spirit.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "sports", "basketball"]
+        },
+        {
+          "prompt": "Who was the first Black player to break the color barrier in Major League Baseball?",
+          "options": ["Jackie Robinson", "Satchel Paige", "Hank Aaron", "Willie Mays"],
+          "correct_index": 0,
+          "fact": "Jackie Robinson joined the Brooklyn Dodgers in 1947.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "sports", "baseball"]
+        },
+        {
+          "prompt": "Which track star won four gold medals at the 1936 Berlin Olympics, challenging Nazi ideas of racial superiority?",
+          "options": ["Jesse Owens", "Carl Lewis", "Usain Bolt", "Ralph Metcalfe"],
+          "correct_index": 0,
+          "fact": "Jesse Owens became a global symbol of excellence and courage.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "sports", "olympics"]
+        },
+        {
+          "prompt": "Who is the boxer known as \"The Greatest\" and for saying he could \"float like a butterfly, sting like a bee\"?",
+          "options": ["Muhammad Ali", "Joe Frazier", "George Foreman", "Mike Tyson"],
+          "correct_index": 0,
+          "fact": "Muhammad Ali was both a boxing legend and a strong voice against war and racism.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "sports", "boxing"]
+        },
+        {
+          "prompt": "Which gymnast has won more World Championship medals than any other gymnast in history?",
+          "options": ["Simone Biles", "Gabby Douglas", "Dominique Dawes", "Nadia Comăneci"],
+          "correct_index": 0,
+          "fact": "Simone Biles is known for her record-breaking skill and difficult routines.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "sports", "gymnastics"]
+        },
+        {
+          "prompt": "Who is the basketball star who led teams like the Miami Heat and Cleveland Cavaliers to multiple NBA titles and is known for activism?",
+          "options": ["LeBron James", "Kobe Bryant", "Dwyane Wade", "Allen Iverson"],
+          "correct_index": 0,
+          "fact": "LeBron James has used his platform to speak out on education and social justice.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "sports", "activism"]
+        },
+        {
+          "prompt": "Which golfer became the first Black man to dominate professional golf and win multiple major championships?",
+          "options": ["Tiger Woods", "Lee Elder", "Calvin Peete", "Harold Varner III"],
+          "correct_index": 0,
+          "fact": "Tiger Woods has inspired new generations of golfers around the world.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "sports", "golf"]
+        },
+        {
+          "prompt": "Who was the first Black woman to win a Grand Slam title in tennis, paving the way for athletes like Serena and Venus Williams?",
+          "options": ["Althea Gibson", "Zina Garrison", "Naomi Osaka", "Coco Gauff"],
+          "correct_index": 0,
+          "fact": "Althea Gibson won Wimbledon and the U.S. Nationals in the 1950s.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "sports", "history"]
+        },
+        {
+          "prompt": "Which WNBA legend is known for her scoring, leadership, and advocacy for equal pay in sports?",
+          "options": ["Maya Moore", "Lisa Leslie", "Sheryl Swoopes", "Candace Parker"],
+          "correct_index": 0,
+          "fact": "Maya Moore also paused her career to focus on criminal justice reform.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "sports", "wnba"]
+        },
+        {
+          "prompt": "What quality describes the ability of athletes to recover after a loss or injury and come back stronger?",
+          "options": ["Resilience", "Fragility", "Avoidance", "Indifference"],
+          "correct_index": 0,
+          "fact": "Resilience is a key trait seen in many Black sports legends on and off the field.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "character", "sports"]
+        },
+        {
+          "prompt": "Which term describes the confident style and attitude shown by athletes like Muhammad Ali and Deion Sanders?",
+          "options": ["Swagger", "Confusion", "Shyness", "Clumsiness"],
+          "correct_index": 0,
+          "fact": "Swagger combines confidence, flair, and self-belief.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["which", "culture", "sports"]
+        },
+        {
+          "prompt": "Who is the NBA star known as the \"Black Mamba\" for his fierce competitiveness and scoring ability?",
+          "options": ["Kobe Bryant", "Allen Iverson", "LeBron James", "Michael Jordan"],
+          "correct_index": 0,
+          "fact": "Kobe Bryant won five NBA championships with the Los Angeles Lakers.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "sports", "basketball"]
+        }
+      ]
+    },
+    {
+      "title": "Black Innovation & Technology",
+      "questions": [
+        {
+          "prompt": "Who helped design the first IBM personal computer and holds several key PC patents?",
+          "options": ["Mark Dean", "Lonnie Johnson", "Lewis Latimer", "Frederick Jones"],
+          "correct_index": 0,
+          "fact": "Mark Dean helped shape the modern personal computing experience.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "technology", "computers"]
+        },
+        {
+          "prompt": "Who created Voice over Internet Protocol (VoIP), technology that powers online calls and video chats?",
+          "options": ["Dr. Marian Croak", "Mark Dean", "Valerie Thomas", "Granville Woods"],
+          "correct_index": 0,
+          "fact": "Dr. Marian Croak holds hundreds of patents in digital communications.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "technology", "communication"]
+        },
+        {
+          "prompt": "Which engineer invented the Super Soaker and worked on spacecraft energy systems?",
+          "options": ["Lonnie Johnson", "Garrett Morgan", "Otis Boykin", "Lewis Latimer"],
+          "correct_index": 0,
+          "fact": "Lonnie Johnson turned his engineering skills into a globally popular toy.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "engineering", "inventions"]
+        },
+        {
+          "prompt": "Who developed portable refrigeration units used on trucks and trains to transport food?",
+          "options": ["Frederick McKinley Jones", "Mark Dean", "George Carver", "Garrett Morgan"],
+          "correct_index": 0,
+          "fact": "Frederick Jones’s innovation improved food safety worldwide.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "technology", "refrigeration"]
+        },
+        {
+          "prompt": "Which inventor’s resistors were used in pacemakers, radios, and computers?",
+          "options": ["Otis Boykin", "Lewis Latimer", "Granville Woods", "Lonnie Johnson"],
+          "correct_index": 0,
+          "fact": "Otis Boykin’s work improved the reliability of medical and electronic devices.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "electronics", "medicine"]
+        },
+        {
+          "prompt": "Who was known as the \"Black Edison\" for his many patents in electrical and railway systems?",
+          "options": ["Granville Woods", "Garrett Morgan", "Mark Dean", "Frederick Jones"],
+          "correct_index": 0,
+          "fact": "Granville Woods improved telephone and railway communication systems.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "innovation", "transport"]
+        },
+        {
+          "prompt": "Which scientist advanced agricultural science by discovering new uses for peanuts and sweet potatoes?",
+          "options": ["George Washington Carver", "Charles Drew", "Frederick Jones", "Otis Boykin"],
+          "correct_index": 0,
+          "fact": "George Washington Carver improved soil health and farming practices.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "science", "agriculture"]
+        },
+        {
+          "prompt": "What word describes the creative ability to solve problems in new ways, often seen in Black innovators?",
+          "options": ["Ingenuity", "Inactivity", "Confusion", "Resistance"],
+          "correct_index": 0,
+          "fact": "Ingenuity is at the heart of invention and progress.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "innovation", "creativity"]
+        },
+        {
+          "prompt": "Which visual scientist developed technology behind 3D imaging used in television and space programs?",
+          "options": ["Valerie Thomas", "Marian Croak", "Mae Jemison", "Katherine Johnson"],
+          "correct_index": 0,
+          "fact": "Valerie Thomas invented the Illusion Transmitter, used by NASA.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "technology", "imaging"]
+        },
+        {
+          "prompt": "What term describes a major change in technology that transforms how people live and work?",
+          "options": ["Revolution", "Delay", "Pause", "Routine"],
+          "correct_index": 0,
+          "fact": "Black innovators have driven revolutions in communication, computing, and medicine.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "technology", "change"]
+        },
+        {
+          "prompt": "Which quality is essential for engineers and inventors who keep improving their designs over time?",
+          "options": ["Persistence", "Impatience", "Carelessness", "Avoidance"],
+          "correct_index": 0,
+          "fact": "Persistence helps innovators push through failure and setbacks.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["which", "character", "innovation"]
+        },
+        {
+          "prompt": "Which word describes making a system work better, faster, and more efficiently?",
+          "options": ["Optimize", "Complicate", "Ignore", "Delay"],
+          "correct_index": 0,
+          "fact": "Many Black engineers optimize designs to save time, energy, and money.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "engineering", "efficiency"]
+        }
+      ]
+    },
+    {
+      "title": "Black Music & Culture",
+      "questions": [
+        {
+          "prompt": "Who is known as the \"Queen of Soul\"?",
+          "options": ["Aretha Franklin", "Whitney Houston", "Diana Ross", "Nina Simone"],
+          "correct_index": 0,
+          "fact": "Aretha Franklin’s song \"Respect\" became an anthem for civil rights and women’s rights.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "music", "soul"]
+        },
+        {
+          "prompt": "Who is the jazz trumpeter famous for his gravelly voice and songs like \"What a Wonderful World\"?",
+          "options": ["Louis Armstrong", "Miles Davis", "Dizzy Gillespie", "Duke Ellington"],
+          "correct_index": 0,
+          "fact": "Louis Armstrong helped shape modern jazz with his improvisation.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "music", "jazz"]
+        },
+        {
+          "prompt": "Which singer and pianist used her music to speak out about racism in songs like \"Mississippi Goddam\"?",
+          "options": ["Nina Simone", "Billie Holiday", "Ella Fitzgerald", "Mahalia Jackson"],
+          "correct_index": 0,
+          "fact": "Nina Simone blended jazz, blues, and classical styles with protest lyrics.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "music", "activism"]
+        },
+        {
+          "prompt": "Who performed the song \"Strange Fruit,\" which protested lynching in the United States?",
+          "options": ["Billie Holiday", "Nina Simone", "Aretha Franklin", "Mahalia Jackson"],
+          "correct_index": 0,
+          "fact": "\"Strange Fruit\" is one of the earliest examples of popular music used as direct protest.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "music", "protest"]
+        },
+        {
+          "prompt": "Which city is widely considered the birthplace of hip-hop culture?",
+          "options": ["The Bronx, New York", "Atlanta, Georgia", "Detroit, Michigan", "Chicago, Illinois"],
+          "correct_index": 0,
+          "fact": "Hip-hop emerged in the Bronx in the 1970s with DJs, MCs, breakdancers, and graffiti artists.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["which", "music", "hip-hop"]
+        },
+        {
+          "prompt": "Who is the artist behind the album \"Lemonade,\" known for blending personal storytelling with Black history and culture?",
+          "options": ["Beyoncé", "Rihanna", "Solange", "Lauryn Hill"],
+          "correct_index": 0,
+          "fact": "Beyoncé’s \"Lemonade\" highlighted themes of healing, heritage, and Black womanhood.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "music", "beyonce"]
+        },
+        {
+          "prompt": "Which rapper and activist is known for the album \"To Pimp a Butterfly,\" rich with jazz and social commentary?",
+          "options": ["Kendrick Lamar", "J. Cole", "Nas", "Common"],
+          "correct_index": 0,
+          "fact": "Kendrick Lamar’s work explores racism, identity, and mental health.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "music", "rap"]
+        },
+        {
+          "prompt": "What word describes a repeated rhythmic pattern that gives music its pulse and drive?",
+          "options": ["Groove", "Silence", "Pause", "Blocking"],
+          "correct_index": 0,
+          "fact": "Groove is central to genres like funk, R&B, and hip-hop.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["what", "music", "rhythm"]
+        },
+        {
+          "prompt": "Which musical tradition has deep roots in Black churches and is known for powerful vocals and uplifting messages?",
+          "options": ["Gospel music", "Opera", "Country", "Polka"],
+          "correct_index": 0,
+          "fact": "Gospel has influenced soul, R&B, and pop music worldwide.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["which", "music", "gospel"]
+        },
+        {
+          "prompt": "Who is often called the \"Godfather of Soul\" and known for hits like \"I Got You (I Feel Good)\"?",
+          "options": ["James Brown", "Ray Charles", "Stevie Wonder", "Smokey Robinson"],
+          "correct_index": 0,
+          "fact": "James Brown’s style helped shape funk and modern R&B.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "music", "funk"]
+        },
+        {
+          "prompt": "Which word describes music, art, or stories that feel true to a person’s culture and experience?",
+          "options": ["Authentic", "Artificial", "Generic", "Empty"],
+          "correct_index": 0,
+          "fact": "Authentic art reflects real voices, struggles, and joys.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "culture", "identity"]
+        },
+        {
+          "prompt": "Who is the legendary musician known for blending funk, rock, and soul in albums like \"Purple Rain\"?",
+          "options": ["Prince", "Stevie Wonder", "Rick James", "Lenny Kravitz"],
+          "correct_index": 0,
+          "fact": "Prince was known for his musical genius and bold style.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "music", "pop"]
+        }
+      ]
+    },
+    {
+      "title": "Black Art, Fashion & Design",
+      "questions": [
+        {
+          "prompt": "Who was the artist known for bold, graffiti-inspired paintings that mixed crowns, text, and powerful Black imagery?",
+          "options": ["Jean-Michel Basquiat", "Romare Bearden", "Jacob Lawrence", "Aaron Douglas"],
+          "correct_index": 0,
+          "fact": "Basquiat went from street art to international galleries.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "art", "modern"]
+        },
+        {
+          "prompt": "Which fashion designer became the first Black artistic director of Louis Vuitton’s menswear?",
+          "options": ["Virgil Abloh", "Dapper Dan", "Kerby Jean-Raymond", "Patrick Kelly"],
+          "correct_index": 0,
+          "fact": "Virgil Abloh blended streetwear and luxury fashion.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "fashion", "design"]
+        },
+        {
+          "prompt": "Who painted the official presidential portrait of Barack Obama for the Smithsonian National Portrait Gallery?",
+          "options": ["Kehinde Wiley", "Kerry James Marshall", "Amy Sherald", "Faith Ringgold"],
+          "correct_index": 0,
+          "fact": "Kehinde Wiley is known for placing Black subjects in classical poses.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "art", "portrait"]
+        },
+        {
+          "prompt": "Which artist is known for powerful black-and-white silhouette cutouts that explore race, gender, and history?",
+          "options": ["Kara Walker", "Faith Ringgold", "Alma Thomas", "Betye Saar"],
+          "correct_index": 0,
+          "fact": "Kara Walker’s work often sparks deep conversation and reflection.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "art", "installation"]
+        },
+        {
+          "prompt": "Which word describes artwork or fashion that is ahead of its time, experimental, and boldly original?",
+          "options": ["Avant-garde", "Ordinary", "Plain", "Unfinished"],
+          "correct_index": 0,
+          "fact": "Avant-garde artists take risks and change trends.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "art", "style"]
+        },
+        {
+          "prompt": "Which Harlem Renaissance sculptor created works that celebrated Black life and also taught many young artists?",
+          "options": ["Augusta Savage", "Meta Warrick Fuller", "Elizabeth Catlett", "Alma Thomas"],
+          "correct_index": 0,
+          "fact": "Augusta Savage ran a studio that trained future generations of Black artists.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "sculpture", "harlem"]
+        },
+        {
+          "prompt": "Who is known for quilted portraits that use bright African fabrics to celebrate Black history and identity?",
+          "options": ["Bisa Butler", "Faith Ringgold", "Alma Thomas", "Betye Saar"],
+          "correct_index": 0,
+          "fact": "Bisa Butler transforms quilting into vivid portraiture.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "textiles", "portrait"]
+        },
+        {
+          "prompt": "What word describes a design that is clean, smooth, and elegantly simple, often seen in modern Black fashion?",
+          "options": ["Sleek", "Cluttered", "Chaotic", "Rough"],
+          "correct_index": 0,
+          "fact": "Sleek design often uses simple shapes and bold lines.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["what", "design", "fashion"]
+        },
+        {
+          "prompt": "Which designer from Harlem became famous for remixing luxury logos into bold streetwear?",
+          "options": ["Dapper Dan", "Virgil Abloh", "Kerby Jean-Raymond", "Patrick Kelly"],
+          "correct_index": 0,
+          "fact": "Dapper Dan’s work influenced how major brands see streetwear.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "fashion", "streetwear"]
+        },
+        {
+          "prompt": "Which term describes very detailed patterns and designs that use small shapes, lines, or colors?",
+          "options": ["Intricate", "Bare", "Plain", "Random"],
+          "correct_index": 0,
+          "fact": "Intricate patterns are common in African textiles and Black fashion.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["which", "design", "patterns"]
+        },
+        {
+          "prompt": "Who is the artist known for story quilts that combine images and text to tell Black family and community stories?",
+          "options": ["Faith Ringgold", "Bisa Butler", "Kara Walker", "Alma Thomas"],
+          "correct_index": 0,
+          "fact": "Faith Ringgold’s quilts read like colorful picture books on cloth.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "quilts", "storytelling"]
+        },
+        {
+          "prompt": "Which word describes a powerful burst of creativity or expression in art, dance, or design?",
+          "options": ["Flourish", "Mistake", "Pause", "Stumble"],
+          "correct_index": 0,
+          "fact": "A creative flourish often becomes the most memorable part of a piece.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["what", "art", "expression"]
+        }
+      ]
+    },
+    {
+      "title": "Black Literature & Storytelling",
+      "questions": [
+        {
+          "prompt": "Who wrote the novel \"Beloved,\" which explores memory, slavery, and motherhood?",
+          "options": ["Toni Morrison", "Alice Walker", "Zora Neale Hurston", "Maya Angelou"],
+          "correct_index": 0,
+          "fact": "Toni Morrison won the Pulitzer Prize for \"Beloved.\"",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "literature", "novels"]
+        },
+        {
+          "prompt": "Who is the author of \"I Know Why the Caged Bird Sings,\" a memoir about growing up Black and female in America?",
+          "options": ["Maya Angelou", "Toni Morrison", "Nikki Giovanni", "Alice Walker"],
+          "correct_index": 0,
+          "fact": "Maya Angelou’s memoir opened doors for Black women’s life writing.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["who", "memoir", "poetry"]
+        },
+        {
+          "prompt": "Who wrote \"Their Eyes Were Watching God,\" a novel featuring Janie Crawford’s search for voice and independence?",
+          "options": ["Zora Neale Hurston", "Toni Cade Bambara", "Alice Walker", "Octavia Butler"],
+          "correct_index": 0,
+          "fact": "Zora Neale Hurston’s work was rediscovered and celebrated decades after her death.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "harlem-renaissance", "novels"]
+        },
+        {
+          "prompt": "Which writer is known for powerful essays like \"The Fire Next Time\" and for exploring race and identity in America?",
+          "options": ["James Baldwin", "Ta-Nehisi Coates", "Ralph Ellison", "Langston Hughes"],
+          "correct_index": 0,
+          "fact": "James Baldwin lived in both the U.S. and France and wrote about love, faith, and justice.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "essays", "civil-rights"]
+        },
+        {
+          "prompt": "Who wrote the science fiction novel \"Kindred,\" which blends time travel with the history of slavery?",
+          "options": ["Octavia Butler", "N.K. Jemisin", "Samuel R. Delany", "Tananarive Due"],
+          "correct_index": 0,
+          "fact": "Octavia Butler is a key figure in Afrofuturism and Black speculative fiction.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "science-fiction", "afrofuturism"]
+        },
+        {
+          "prompt": "Which poet of the Harlem Renaissance wrote \"The Negro Speaks of Rivers\"?",
+          "options": ["Langston Hughes", "Countee Cullen", "Claude McKay", "Gwendolyn Brooks"],
+          "correct_index": 0,
+          "fact": "Langston Hughes connected Black history to ancient rivers like the Nile and Euphrates.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "poetry", "harlem-renaissance"]
+        },
+        {
+          "prompt": "Who was the first Black person to win the Nobel Prize in Literature?",
+          "options": ["Toni Morrison", "Wole Soyinka", "Chinua Achebe", "Maya Angelou"],
+          "correct_index": 0,
+          "fact": "Toni Morrison received the Nobel Prize in Literature in 1993.",
+          "difficulty": "hard",
+          "xp": 30,
+          "tags": ["who", "awards", "literature"]
+        },
+        {
+          "prompt": "Which word describes writing or speech that is especially graceful, powerful, and persuasive?",
+          "options": ["Eloquent", "Flat", "Harsh", "Confused"],
+          "correct_index": 0,
+          "fact": "Eloquent storytellers make complex ideas clear and moving.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["what", "language", "skills"]
+        },
+        {
+          "prompt": "Which term refers to the central message, idea, or insight in a story?",
+          "options": ["Theme", "Setting", "Dialogue", "Footnote"],
+          "correct_index": 0,
+          "fact": "Themes in Black literature often include freedom, identity, and resilience.",
+          "difficulty": "easy",
+          "xp": 10,
+          "tags": ["which", "literary-terms", "reading"]
+        },
+        {
+          "prompt": "Who wrote \"Between the World and Me,\" a letter to his son about race and history in America?",
+          "options": ["Ta-Nehisi Coates", "James Baldwin", "Cornel West", "Ibram X. Kendi"],
+          "correct_index": 0,
+          "fact": "Ta-Nehisi Coates’s book echoes the style of Baldwin’s earlier essays.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "essays", "contemporary"]
+        },
+        {
+          "prompt": "What word describes a story that uses symbolic characters and events to teach a moral lesson, like some folktales?",
+          "options": ["Allegory", "Recipe", "Blueprint", "Announcement"],
+          "correct_index": 0,
+          "fact": "Allegories allow writers to talk about real issues in symbolic ways.",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["what", "literary-terms", "symbolism"]
+        },
+        {
+          "prompt": "Who wrote the novel \"The Color Purple,\" which explores sisterhood, abuse, and healing?",
+          "options": ["Alice Walker", "Toni Morrison", "Maya Angelou", "Zora Neale Hurston"],
+          "correct_index": 0,
+          "fact": "Alice Walker won the Pulitzer Prize for Fiction for \"The Color Purple.\"",
+          "difficulty": "medium",
+          "xp": 20,
+          "tags": ["who", "novels", "women"]
+        }
+      ]
+    }
+  ]
+}
